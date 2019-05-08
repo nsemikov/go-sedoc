@@ -1,4 +1,5 @@
-# :mortar_board: SEDOC [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov]
+# :mortar_board: SEDOC [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report] [![License][lic-img]][lic]
+
 
 ## Simple example
 
@@ -143,3 +144,7 @@ See [godoc][doc] for details
 [ci]: https://travis-ci.com/stdatiks/go-sedoc
 [cov-img]: https://codecov.io/gh/stdatiks/go-sedoc/branch/master/graph/badge.svg
 [cov]: https://codecov.io/gh/stdatiks/go-sedoc
+[report-img]: https://goreportcard.com/badge/stdatiks/go-sedoc
+[report]: https://goreportcard.com/report/stdatiks/go-sedoc
+[lic-img]: https://img.shields.io/badge/License-MIT-brightgreen.svg
+[lic]: https://opensource.org/licenses/MIT
