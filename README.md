@@ -1,4 +1,4 @@
-# :mortar_board: SEDOC [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report] [![License][lic-img]][lic]
+[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report] [![License][lic-img]][lic]
 
 
 ## Simple example
