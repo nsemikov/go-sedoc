@@ -138,13 +138,13 @@ See [godoc][doc] for details
 
 
 
-[doc-img]: https://godoc.org/github.com/stdatiks/go-sedoc?status.svg
+[doc-img]: https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square
 [doc]: https://godoc.org/github.com/stdatiks/go-sedoc
-[ci-img]: https://travis-ci.com/stdatiks/go-sedoc.svg?branch=master
+[ci-img]: https://img.shields.io/travis/stdatiks/go-sedoc.svg?style=flat-square
 [ci]: https://travis-ci.com/stdatiks/go-sedoc
-[cov-img]: https://codecov.io/gh/stdatiks/go-sedoc/branch/master/graph/badge.svg
+[cov-img]: https://img.shields.io/codecov/c/github/stdatiks/go-sedoc.svg?style=flat-square
 [cov]: https://codecov.io/gh/stdatiks/go-sedoc
-[report-img]: https://goreportcard.com/badge/stdatiks/go-sedoc
+[report-img]: https://goreportcard.com/badge/github.com/stdatiks/go-sedoc?style=flat-square
 [report]: https://goreportcard.com/report/stdatiks/go-sedoc
-[lic-img]: https://img.shields.io/badge/License-MIT-brightgreen.svg
+[lic-img]: https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square
 [lic]: https://opensource.org/licenses/MIT
