@@ -1,5 +1,7 @@
 github.com/google/uuid v1.1.1 h1:Gkbcsh/GbpXz7lPftLA3P6TYMwjCLYm83jiFQZF/3gY=
 github.com/google/uuid v1.1.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/stdatiks/go-sedoc v0.0.0-20190508132556-0e6fd41336d1 h1:ijuCAe9URsDFdp9zNAxPCjkh6Gu6yyMKd99WrIgugoE=
+github.com/stdatiks/go-sedoc v0.0.0-20190508132556-0e6fd41336d1/go.mod h1:ljFsXCVRCffKftc68IsIVC3NURu3J+O0BktQPKM/MJE=
 github.com/stdatiks/go-sedoc/types v0.0.0-20190508132556-0e6fd41336d1 h1:cTyugMi+JkQXcVHtqzSsvN0wmvtnZaWbiXw9myrTxpQ=
 github.com/stdatiks/go-sedoc/types v0.0.0-20190508132556-0e6fd41336d1/go.mod h1:DjmEydzU0eOLdmHc1WYC2pLcfz49lQWnobW98MKX6OA=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
