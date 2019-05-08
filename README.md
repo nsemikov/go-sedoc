@@ -140,7 +140,7 @@ See [godoc][doc] for details
 
 [doc-img]: https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square
 [doc]: https://godoc.org/github.com/stdatiks/go-sedoc
-[ci-img]: https://img.shields.io/travis/stdatiks/go-sedoc.svg?style=flat-square
+[ci-img]: https://travis-ci.com/stdatiks/go-sedoc.svg?branch=master&style=flat-square
 [ci]: https://travis-ci.com/stdatiks/go-sedoc
 [cov-img]: https://img.shields.io/codecov/c/github/stdatiks/go-sedoc.svg?style=flat-square
 [cov]: https://codecov.io/gh/stdatiks/go-sedoc
