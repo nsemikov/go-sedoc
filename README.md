@@ -1,4 +1,4 @@
-[![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report] [![License][lic-img]][lic]
+[![License][lic-img]][lic] [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report]
 
 
 ## Simple example
@@ -146,5 +146,5 @@ See [godoc][doc] for details
 [cov]: https://codecov.io/gh/stdatiks/go-sedoc
 [report-img]: https://goreportcard.com/badge/github.com/stdatiks/go-sedoc?style=flat-square
 [report]: https://goreportcard.com/report/stdatiks/go-sedoc
-[lic-img]: https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square
+[lic-img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [lic]: https://opensource.org/licenses/MIT
