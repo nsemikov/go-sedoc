@@ -1,3 +1,5 @@
+# :mortar_board: SEDOC [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov]
+
 ## Simple example
 
 ```go
@@ -131,4 +133,13 @@ This simple example will print to stdout something like this:
 
 You may use JSON or XML format over any transport (WebSocket, HTTP, TCP, UDP, etc)
 
-See [godoc](http://godoc.org/github.com/stdatiks/go-sedoc) for details
+See [godoc][doc] for details
+
+
+
+[doc-img]: https://godoc.org/github.com/stdatiks/go-sedoc?status.svg
+[doc]: https://godoc.org/github.com/stdatiks/go-sedoc
+[ci-img]: https://travis-ci.com/stdatiks/go-sedoc.svg?branch=master
+[ci]: https://travis-ci.com/stdatiks/go-sedoc
+[cov-img]: https://codecov.io/gh/stdatiks/go-sedoc/branch/master/graph/badge.svg
+[cov]: https://codecov.io/gh/stdatiks/go-sedoc
