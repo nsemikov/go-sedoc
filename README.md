@@ -12,65 +12,65 @@
 package main
 
 import (
-    "encoding/xml"
-    "fmt"
-    "time"
+  "encoding/xml"
+  "fmt"
+  "time"
 
-    sedoc "github.com/stdatiks/go-sedoc"
+  sedoc "github.com/stdatiks/go-sedoc"
 )
 
 const (
-    MyAppName    = "MyService"
-    MyAppVersion = "0.1.0"
+  MyAppName    = "MyService"
+  MyAppVersion = "0.1.0"
 )
 
 func main() {
-    // create api
-    api := sedoc.New()
-    api.Description = "My self documented API"
-    // create commands
-    infoCmd := sedoc.Command{
-        Name: "info",
-        Handler: func(c sedoc.Context) error {
-            c.Response().Result = fmt.Sprintf("%s v%s", MyAppName, MyAppVersion)
-            return nil
+  // create api
+  api := sedoc.New()
+  api.Description = "My self documented API"
+  // create commands
+  infoCmd := sedoc.Command{
+    Name: "info",
+    Handler: func(c sedoc.Context) error {
+      c.Response().Result = fmt.Sprintf("%s v%s", MyAppName, MyAppVersion)
+      return nil
+    },
+  }
+  // add examples to command (optionaly)
+  infoCmd.Examples = sedoc.Examples{
+    sedoc.Example{
+      Name: "simple",
+      Request: sedoc.ExampleRequest{
+        Object: sedoc.Request{
+          Datetime: func() time.Time { t, _ := time.Parse(time.RFC3339, "2018-10-16T09:58:03.487508407Z"); return t }(),
+          Command:  "info",
         },
-    }
-    // add examples to command (optionaly)
-    infoCmd.Examples = sedoc.Examples{
-        sedoc.Example{
-            Name: "simple",
-            Request: sedoc.ExampleRequest{
-                Object: sedoc.Request{
-                    Datetime: func() time.Time { t, _ := time.Parse(time.RFC3339, "2018-10-16T09:58:03.487508407Z"); return t }(),
-                    Command:  "info",
-                },
-            },
-            Responses: sedoc.ExampleResponses{
-                sedoc.ExampleResponse{
-                    Name: "simple",
-                    Object: sedoc.Response{
-                        Datetime: func() time.Time { t, _ := time.Parse(time.RFC3339, "2018-10-16T09:58:03.487508407Z"); return t }(),
-                        Command:  "info",
-                        Result:   "MyService v0.1.0",
-                    },
-                },
-            },
+      },
+      Responses: sedoc.ExampleResponses{
+        sedoc.ExampleResponse{
+          Name: "simple",
+          Object: sedoc.Response{
+            Datetime: func() time.Time { t, _ := time.Parse(time.RFC3339, "2018-10-16T09:58:03.487508407Z"); return t }(),
+            Command:  "info",
+            Result:   "MyService v0.1.0",
+          },
         },
-    }
-    // add command to api
-    api.AddCommand(infoCmd)
-    // create request
-    request := sedoc.NewRequest()
-    request.Command = "help"
-    // and execute it
-    response := api.Execute(request)
-    // ...
-    if b, err := xml.MarshalIndent(response, "", "  "); err != nil {
-        fmt.Println(err)
-    } else {
-        fmt.Println(string(b))
-    }
+      },
+    },
+  }
+  // add command to api
+  api.AddCommand(infoCmd)
+  // create request
+  request := sedoc.NewRequest()
+  request.Command = "help"
+  // and execute it
+  response := api.Execute(request)
+  // ...
+  if b, err := xml.MarshalIndent(response, "", "  "); err != nil {
+    log.Fatal(err)
+  } else {
+    log.Println(string(b))
+  }
 }
 ```
 
