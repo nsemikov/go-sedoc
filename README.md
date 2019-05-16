@@ -1,5 +1,10 @@
 [![License][lic-img]][lic] [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report Card][report-img]][report]
 
+## Why another API package?
+
+* There are many REST API autodocumented packages, but not for JSON-pure or TCP
+* You may want use JSON, XML or YAML format over any transport (WebSocket, HTTP, TCP, UDP, etc)
+* API will be automatically documented
 
 ## Simple example
 
@@ -131,12 +136,6 @@ This simple example will print to stdout something like this:
   </result>
 </response>
 ```
-
-You may use JSON or XML format over any transport (WebSocket, HTTP, TCP, UDP, etc)
-
-See [godoc][doc] for details
-
-
 
 [doc-img]: https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square
 [doc]: https://godoc.org/github.com/stdatiks/go-sedoc
