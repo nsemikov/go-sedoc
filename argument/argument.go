@@ -1,7 +1,7 @@
 package argument
 
 import (
-	sedoc "github.com/stdatiks/go-sedoc"
+	sedoc "github.com/nsemikov/go-sedoc"
 )
 
 const (

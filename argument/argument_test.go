@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	sedoc "github.com/stdatiks/go-sedoc"
+	sedoc "github.com/nsemikov/go-sedoc"
 )
 
 func TestRequired(t *testing.T) {

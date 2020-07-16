@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/stdatiks/go-sedoc/types"
+	"github.com/nsemikov/go-sedoc/types"
 )
 
 // ArgumentParser is parser for Argument

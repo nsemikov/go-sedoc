@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	sedoc "github.com/stdatiks/go-sedoc"
-	"github.com/stdatiks/go-sedoc/argument"
+	sedoc "github.com/nsemikov/go-sedoc"
+	"github.com/nsemikov/go-sedoc/argument"
 )
 
 // Here is basic example of sedoc api usage
@@ -109,8 +109,8 @@ func Example_set() {
 				Description: "Password string.",
 				Required:    true,
 			},
-			argument.Email, // you can use some args from "github.com/stdatiks/go-sedoc/argument"
-			argument.Name,  // you can use some args from "github.com/stdatiks/go-sedoc/argument"
+			argument.Email, // you can use some args from "github.com/nsemikov/go-sedoc/argument"
+			argument.Name,  // you can use some args from "github.com/nsemikov/go-sedoc/argument"
 		},
 	})
 	// ...

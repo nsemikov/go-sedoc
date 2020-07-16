@@ -16,7 +16,7 @@ import (
   "fmt"
   "time"
 
-  sedoc "github.com/stdatiks/go-sedoc"
+  sedoc "github.com/nsemikov/go-sedoc"
 )
 
 const (
@@ -138,12 +138,12 @@ This simple example will print to stdout something like this:
 ```
 
 [doc-img]: https://img.shields.io/badge/go-documentation-blue.svg?style=flat-square
-[doc]: https://godoc.org/github.com/stdatiks/go-sedoc
-[ci-img]: https://img.shields.io/travis/com/stdatiks/go-sedoc.svg?style=flat-square
-[ci]: https://travis-ci.com/stdatiks/go-sedoc
-[cov-img]: https://img.shields.io/codecov/c/github/stdatiks/go-sedoc.svg?style=flat-square
-[cov]: https://codecov.io/gh/stdatiks/go-sedoc
-[report-img]: https://goreportcard.com/badge/github.com/stdatiks/go-sedoc?style=flat-square
-[report]: https://goreportcard.com/report/stdatiks/go-sedoc
+[doc]: https://godoc.org/github.com/nsemikov/go-sedoc
+[ci-img]: https://img.shields.io/travis/com/nsemikov/go-sedoc.svg?style=flat-square
+[ci]: https://travis-ci.com/nsemikov/go-sedoc
+[cov-img]: https://img.shields.io/codecov/c/github/nsemikov/go-sedoc.svg?style=flat-square
+[cov]: https://codecov.io/gh/nsemikov/go-sedoc
+[report-img]: https://goreportcard.com/badge/github.com/nsemikov/go-sedoc?style=flat-square
+[report]: https://goreportcard.com/report/nsemikov/go-sedoc
 [lic-img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [lic]: https://opensource.org/licenses/MIT

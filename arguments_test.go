@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stdatiks/go-sedoc/types"
+	"github.com/nsemikov/go-sedoc/types"
 )
 
 func TestArgumentType_Parse(t *testing.T) {

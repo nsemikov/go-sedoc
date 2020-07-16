@@ -1,4 +1,4 @@
-module github.com/stdatiks/go-sedoc/types
+module github.com/nsemikov/go-sedoc/types
 
 go 1.12
 
