@@ -1,5 +1,0 @@
-module github.com/nsemikov/go-sedoc/types
-
-go 1.12
-
-require github.com/google/uuid v1.1.1
